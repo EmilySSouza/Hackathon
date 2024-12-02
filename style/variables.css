@@ -1,3 +1,8 @@
 :root {
-    
+    /* color */
+    --global-color-primary: #FBF0E1;
+    --global-color-secondary: #FFBA4B;
+    --global-color-text: #6A3E00;
+    --global-color-accent: #AB0879;
+    --global-color-d3777ea: #FF4700; 
 }
