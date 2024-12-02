@@ -1,0 +1,12 @@
+@import url('./variables.css');
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 2em;
+    color: var(--global-color-text);
+    margin-top: 1em;
+}
