@@ -1,0 +1,11 @@
+@import url(./variables.css);
+
+
+footer {
+    background-color: var(--global-color-secondary);
+    display: flex;
+    justify-content: center;
+    color: var(--global-color-text);
+    padding: 0.5em 0;
+    font-size: 15px;
+}
