@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A importância da história afro-brasileira e como nos afeta. Explore a rica herança cultural e histórica afro-brasileira e entenda seu impacto na sociedade atual.">
+    <meta name="description"
+        content="A importância da história afro-brasileira e como nos afeta. Explore a rica herança cultural e histórica afro-brasileira e entenda seu impacto na sociedade atual.">
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/variables.css">
     <link rel="stylesheet" href="./style/header.css">
@@ -11,6 +13,7 @@
     <link rel="stylesheet" href="./style/footer.css">
     <title>Hackathon</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -38,6 +41,19 @@
         </section>
 
         <section id="form">
+            <label for="name">Nome completo:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+
+            <label for="team">Nome do time (opcional):</label>
+            <input type="text" id="team" name="team">
+
+            <button type="submit">Enviar inscrição</button>
         </section>
     </main>
 
@@ -45,4 +61,5 @@
         <p>&copy; 2024 História Afro-Brasileira | Desenvolvido por alunos da PDA</p>
     </footer>
 </body>
+
 </html>
