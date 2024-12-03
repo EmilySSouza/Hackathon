@@ -3,10 +3,53 @@
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 2em;
+    background-color: var(--global-color-background);
 }
 
 main h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--global-color-text);
-    margin-top: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 900px; 
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid var(--global-color-secondary);
+    border-radius: 8px;
+    background-color: var(--global-color-primary);
+}
+
+#form label {
+    font-size: 1em;
+    color: var(--global-color-text);
+}
+
+#form input {
+    padding: 0.5em;
+    border: 1px solid var(--global-color-secondary);
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#form button {
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--global-color-text);
+    color: var(--global-color-primary);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: var(--global-color-accent);
 }
