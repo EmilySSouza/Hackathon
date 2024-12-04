@@ -1,13 +1,8 @@
 @import url(./variables.css);
 
 footer {
+    text-align: center;
+    padding: 1rem;
     background-color: var(--global-color-secondary);
-    display: flex;
-    justify-content: center;
     color: var(--global-color-text);
-    padding: 0.5em 0;
-    font-size: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
