@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="A importância da história afro-brasileira e como nos afeta. Explore a rica herança cultural e histórica afro-brasileira e entenda seu impacto na sociedade atual.">
+    <meta name="description" content="A importância da história afro-brasileira e como nos afeta. Explore a rica herança cultural e histórica afro-brasileira e entenda seu impacto na sociedade atual.">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/variables.css">
     <link rel="stylesheet" href="./style/header.css">
@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="" alt="Logo">
+            <img src="./assets/images/logo.png" alt="Logo">
         </div>
         <nav class="main-menu">
             <ul class="main-options-menu">
@@ -28,8 +28,10 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>A importância da história afro-brasileira e como nos afeta</h1>
+
+        <h1>A importância da história afro-brasileira<br> e como nos afeta</h1>
 
         <section>
             <p></p>
@@ -40,21 +42,25 @@
             <img src="" alt="">
         </section>
 
-        <section id="form">
-            <label for="name">Nome completo:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
-
-            <label for="team">Nome do time (opcional):</label>
-            <input type="text" id="team" name="team">
-
-            <button id="enviar" type="submit">Enviar inscrição</button>
-        </section>
+        <div class="inscriçãoID">
+            <h2>Inscreva-se no Hackathon</h2>
+            <p>Participe do nosso Hackathon e ajude a contar a história afro-brasileira de uma forma inovadora e criativa.</p>
+            <section id="form">
+                <label for="name">Nome completo:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+    
+                <label for="team">Nome do time (opcional):</label>
+                <input type="text" id="team" name="team">
+    
+                <button id="enviar" type="submit">Enviar inscrição</button>
+            </section>
+        </div>
     </main>
 
     <footer>
@@ -65,5 +71,4 @@
     <script type="module" src="controller/userController.js"></script>
     <script type="module" src="view/userView.js"></script>
 </body>
-
 </html>
