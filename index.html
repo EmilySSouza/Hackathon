@@ -30,63 +30,70 @@
     </header>
 
     <main>
-        <h1>A importância da história afro-brasileira<br> e como nos afeta</h1>
+        <h1>A importância da história afro-brasileira e<br>como nos afeta</h1>
+       <div class="separacao">
 
-        <section>
-            <h2>Transforme histórias em impacto!</h2>
-            <p>Participe do nosso hackathon e crie soluções que inspiram a reflexão, fortalecem a identidade cultural e promovem mudanças reais.</p>
-            <!-- <img src="" alt=""> -->
-        </section>
-        <section>
-            <p>Tema do nosso Hackathon <span>A importância da história afro-brasileira e como nos afeta</span></p>
-            <p>Por que é essencial conhecer a história afro-brasileira?</p>
-            <ul>
-                <li>Ela é parte fundamental da construção do Brasil que conhecemos hoje.</li>
-                <li>Sua valorização fortalece a luta contra o racismo e promove a igualdade.</li>
-                <li>Entender essa história nos ajuda a repensar o presente e construir um futuro mais justo.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Objetivos do Hackathon</h3>
-            <ul>
-                <li>Criar soluções tecnológicas e criativas que promovam o ensino, a divulgação ou a preservação da história afro-brasileira.</li>
-                <li>Fomentar debates sobre como a herança cultural afro-brasileira nos influencia em áreas como a educação, artes, tecnologia e empreendedorismo.</li>
-                <li>Unir mentes brilhantes para construir um impacto positivo na sociedade.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Por que participar?</h3>
-            <ul>
-                <li><span>Impacto Social:</span> Contribua para valorizar uma história essencial para o Brasil.</li>
-                <li><span>Networking:</span> Conheça pessoas incríveis de diversas áreas.</li>
-                <li><span>Aprendizado:</span> Participe de oficinas e receba mentoria de especialistas.</li>
-                <li><span>Diversão:</span> Um evento dinâmico, interativo e cheio de desafios criativos.</li>
-            </ul>
-        </section>
-
-        <div class="inscriçãoID">
+           <!-- Seção de introdução -->
+           <section class="container text-center">
+               <h2>Transforme histórias em impacto!</h2>
+               <p>Participe do nosso hackathon e crie soluções que inspiram a reflexão, fortalecem a identidade cultural e promovem mudanças reais.</p>
+               <!-- <img src="" alt=""> -->
+           </section>
+       
+           <!-- Seção temática -->
+           <section class="container">
+               <p>Tema do nosso Hackathon: <span class="highlight">A importância da história afro-brasileira e como nos afeta</span></p>
+               <p>Por que é essencial conhecer a história afro-brasileira?</p>
+               <ul>
+                   <li>Ela é parte fundamental da construção do Brasil que conhecemos hoje.</li>
+                   <li>Sua valorização fortalece a luta contra o racismo e promove a igualdade.</li>
+                   <li>Entender essa história nos ajuda a repensar o presente e construir um futuro mais justo.</li>
+               </ul>
+           </section>
+       
+           <!-- Seção de objetivos -->
+           <section class="container">
+               <h3>Objetivos do Hackathon</h3>
+               <ul>
+                   <li>Criar soluções tecnológicas e criativas que promovam o ensino, a divulgação ou a preservação da história afro-brasileira.</li>
+                   <li>Fomentar debates sobre como a herança cultural afro-brasileira nos influencia em áreas como a educação, artes, tecnologia e empreendedorismo.</li>
+                   <li>Unir mentes brilhantes para construir um impacto positivo na sociedade.</li>
+               </ul>
+           </section>
+           <!-- Seção de benefícios -->
+           <section class="container">
+               <h3>Por que participar?</h3>
+               <ul>
+                   <li><span class="highlight">Impacto Social:</span> Contribua para valorizar uma história essencial para o Brasil.</li>
+                   <li><span class="highlight">Networking:</span> Conheça pessoas incríveis de diversas áreas.</li>
+                   <li><span class="highlight">Aprendizado:</span> Participe de oficinas e receba mentoria de especialistas.</li>
+                   <li><span class="highlight">Diversão:</span> Um evento dinâmico, interativo e cheio de desafios criativos.</li>
+               </ul>
+           </section>
+       </div>
+    
+        <!-- Seção de inscrição -->
+        <div class="form-container">
             <h2>Inscreva-se Agora!</h2>
             <p>Participe do nosso Hackathon e ajude a contar a história afro-brasileira de uma forma inovadora e criativa.</p>
-            <section id="form">
+            <form id="form" class="form-container">
                 <label for="name">Nome completo:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" aria-label="Nome completo" required>
     
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" aria-label="E-mail" required>
     
                 <label for="phone">Telefone:</label>
-                <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+                <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" aria-label="Telefone" required>
     
                 <label for="team">Nome do time (opcional):</label>
-                <input type="text" id="team" name="team">
+                <input type="text" id="team" name="team" aria-label="Nome do time">
     
                 <button id="enviar" type="submit">Enviar inscrição</button>
-            </section>
+            </form>
         </div>
     </main>
-
+    
     <footer>
         <p>&copy; 2024 História Afro-Brasileira | Desenvolvido por alunos da PDA</p>
     </footer>
