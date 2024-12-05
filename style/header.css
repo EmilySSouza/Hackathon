@@ -7,6 +7,7 @@ header {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 1rem;
 }
 
 .logo img {
@@ -35,4 +36,28 @@ header {
 
 .main-options-menu > li > a:hover {
     color: var(--global-color-accent);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .main-options,
+    .main-options-menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main-options-menu > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-options-menu > li > a {
+        display: block;
+        padding: 0.5rem 0;
+    }
 }
