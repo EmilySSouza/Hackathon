@@ -1,0 +1,8 @@
+@import url(./base/variables.css);
+@import url(./base/global.css);
+@import url(./components/header.css);
+@import url(./components/footer.css);
+@import url(./layouts/landing-page.css);
+@import url(./layouts/linha-do-tempo.css);
+@import url(./layouts/personagens-historicos.css);
+@import url(./layouts/relatos.css);

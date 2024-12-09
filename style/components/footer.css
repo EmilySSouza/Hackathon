@@ -2,7 +2,7 @@
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--global-color-secondary);
     color: var(--global-color-text);
 }

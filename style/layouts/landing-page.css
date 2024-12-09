@@ -1,44 +1,5 @@
 @import url('./variables.css');
 
-/* Estilo global */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Títulos */
-h1, h2, h3 {
-    margin-bottom: 1em;
-    text-align: center;
-    color: var(--global-color-text);
-}
-
-h1 {
-    font-size: 2.8em;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-clip: text;
-    background-image: url(../assets/images/img-bg-2.webp) ;
-    color: transparent !important;
-}
-
-h2 {
-    font-size: 2.2em;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-/* Texto */
-p {
-    font-size: 1.2em;
-    margin-bottom: 1em;
-    text-align: center;
-}
 
 span.highlight {
     font-weight: bold;
@@ -48,7 +9,6 @@ span.highlight {
 .separacao {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     gap: 1em;
   }
 

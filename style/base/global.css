@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--global-color-text);
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+    min-height: 100dvh;
+    gap: 2em;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    margin-bottom: 1em;
+    text-align: center;
+    color: var(--global-color-text);
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-clip: text;
+    background-image: linear-gradient(88.76deg, rgb(106, 62, 38) -100%, rgb(255, 145, 62) 100%);
+    color: transparent !important;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Texto */
+p {
+    font-size: 1em;
+    text-align: center;
+}
