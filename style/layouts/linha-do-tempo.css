@@ -6,18 +6,18 @@
 
 @keyframes carrossel {
     0% {
-      background-image: url('/assets/images/img-bg.webp');
+      background-image: url('../../assets/images/img-bg.webp');
     }
     33% {
-      background-image: url('/assets/images/img-bg-2.webp');
+      background-image: url('../../assets/images/img-bg-2.webp');
     }
     66% {
-      background-image: url('/assets/images/img-bg-3.webp');
+      background-image: url('../../assets/images/img-bg-3.webp');
     }
     100% {
-      background-image: url('/assets/images/img-bg.webp'); 
+      background-image: url('../../assets/images/img-bg.webp'); 
     }
-  }
+}
 
 .timeline {
     width: 80%;
