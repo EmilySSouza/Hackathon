@@ -1,6 +1,5 @@
 @import url(../base/variables.css);
 
-
 span.highlight {
     font-weight: bold;
     color: var(--global-color-accent);

@@ -1,0 +1,39 @@
+#booksList {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#booksList ul {
+    display: flex;
+    justify-items: center;  
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#booksList ul li {
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: var(--global-color-primary);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel ul li p, .carousel ul li h2 {
+    color: var(--global-color-text);
+}
+
+#booksList ul li p, #booksList ul li h2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+#booksList ul li img {
+    width: 150px;
+}
