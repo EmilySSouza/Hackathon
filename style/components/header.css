@@ -1,4 +1,4 @@
-@import url('./variables.css');
+@import url(../base/variables.css);
 
 /* Estilos do cabeçalho */
 header {

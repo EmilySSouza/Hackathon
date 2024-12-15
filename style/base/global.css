@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+:root, button, label {
+    font-family: "Space Grotesk", sans-serif;
+}
+
 body {
     line-height: 1.6;
     color: var(--global-color-text);
+}
+
+header {
+    font-size: 1em;
+    font-weight: 600;
 }
 
 /* Layout principal */
@@ -17,6 +26,7 @@ main {
     padding: 2em 1em;
     min-height: 100dvh;
     gap: 2em;
+    background-color: #FFE1BE;
 }
 
 /* Títulos */

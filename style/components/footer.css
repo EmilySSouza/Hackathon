@@ -1,8 +1,9 @@
-@import url(./variables.css);
+@import url(../base/variables.css);
 
-footer {
+footer p{
     text-align: center;
     padding: 0.5rem;
     background-color: var(--global-color-secondary);
     color: var(--global-color-text);
+    font-weight: 600;
 }
