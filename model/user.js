@@ -1,4 +1,4 @@
-let iD = 0
+let iD = 0;
 
 export class User{
     constructor(name,email,phone,team){
@@ -7,7 +7,7 @@ export class User{
         this.email = email;
         this.phone = phone;
         this.team = team;
-        iD += 1
+        iD += 1;
     }
 }
 

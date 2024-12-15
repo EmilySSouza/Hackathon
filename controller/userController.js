@@ -1,11 +1,11 @@
 import { User } from "../model/user.js";
 import { showConfirmed } from "../view/userView.js";
 
-export {listaUser, body}
+export {listaUser, main};
 
-const body = document.querySelector("body")
+const main = document.querySelector("main");
 
-const button = document.getElementById("enviar");
+const button = document.getElementById("submit");
 
 const name = document.getElementById("name");
 const email = document.getElementById("email");
@@ -16,20 +16,20 @@ let listaUser = [];
 
 button.addEventListener(
     "click",()=>{
-        newUser(showConfirmed)
+        newUser(showConfirmed);
     }
 )
 
 function newUser(callback){
     if (team.value == ""){
         team.value = "Team não especificado."
-        listaUser.push(new User(name, email, phone, team))
+        listaUser.push(new User(name, email, phone, team));
     }else{
-        listaUser.push(new User(name, email, phone, team))
+        listaUser.push(new User(name, email, phone, team));
     }
     
 
-    callback()
+    callback();
 } 
 
 
