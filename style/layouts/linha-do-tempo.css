@@ -1,0 +1,98 @@
+.main-timeline {
+    background-size: cover; 
+    background-position: center; 
+    animation: carrossel 15s infinite; 
+}
+
+@keyframes carrossel {
+    0% {
+      background-image: url('/assets/images/img-bg.webp');
+    }
+    33% {
+      background-image: url('/assets/images/img-bg-2.webp');
+    }
+    66% {
+      background-image: url('/assets/images/img-bg-3.webp');
+    }
+    100% {
+      background-image: url('/assets/images/img-bg.webp'); 
+    }
+  }
+
+.timeline {
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px 0;
+    border-left: 2px solid var(--global-color-text);
+    margin-left: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--global-color-text);
+    transition: color 0.3s ease-in-out;
+}
+
+.timeline-item p {
+    margin: 5px 0 0;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    background: var(--global-color-text);
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: background 0.3s ease-in-out;
+}
+
+.timeline-item:nth-child(even) {
+    border-left-color: var(--global-color-secondary);
+}
+
+.timeline-item:nth-child(even) h3 {
+    color: var(--global-color-secondary);
+}
+
+.timeline-item:nth-child(even)::before {
+    background: var(--global-color-secondary);
+}
+
+.timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.timeline-item {
+    animation: fadeInUp 0.5s ease-in-out forwards;
+}
