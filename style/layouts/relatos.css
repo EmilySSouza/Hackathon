@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.container-report1{
+    gap: 4px;
+}
+
+article{
+    background-color: var(--global-color-accent);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: bold;
+    color: var(--global-color-primary);
+}
+
+p{
+    color: var(--global-color-primary);
+    text-align: center;
+    font-size: 1.2em;
+}
