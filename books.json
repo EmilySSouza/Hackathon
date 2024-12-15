@@ -1,0 +1,84 @@
+{
+    "books": [
+      {
+        "title": "Torto Arado",
+        "author": "Itamar Vieira Junior",
+        "photo": "http://books.google.com/books/content?id=lL2GDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "genre": "Ficção",
+        "year": 2019,
+        "description": "Uma história sobre duas irmãs vivendo em uma comunidade rural no sertão da Bahia, explorando temas de ancestralidade, luta e opressão."
+      },
+      {
+        "title": "Úrsula",
+        "author": "Maria Firmina dos Reis",
+        "photo": "http://books.google.com/books/content?id=rFt0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Ficção Abolicionista",
+        "year": 1859,
+        "description": "Considerado o primeiro romance abolicionista do Brasil, narra histórias de amor e sofrimento de pessoas escravizadas e denuncia a opressão da escravidão."
+      },
+      {
+        "title": "Olhos d'Água",
+        "author": "Conceição Evaristo",
+        "photo": "http://books.google.com/books/content?id=g0kyDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Contos",
+        "year": 2014,
+        "description": "Uma coletânea de contos que aborda as dificuldades e resistências de pessoas negras no Brasil, com uma escrita poética e sensível."
+      },
+      {
+        "title": "Quarto de Despejo",
+        "author": "Carolina Maria de Jesus",
+        "photo": "http://books.google.com/books/content?id=XzQzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Diário",
+        "year": 1960,
+        "description": "O diário de uma mulher negra, favelada e catadora de papel, narrando a realidade crua da pobreza e da exclusão social no Brasil."
+      },
+      {
+        "title": "Ponciá Vicêncio",
+        "author": "Conceição Evaristo",
+        "photo": "http://books.google.com/books/content?id=MXD2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Ficção",
+        "year": 2003,
+        "description": "A história de uma mulher que enfrenta os fantasmas da escravidão e busca sua identidade em um mundo marcado pela opressão."
+      },
+      {
+        "title": "Um Defeito de Cor",
+        "author": "Ana Maria Gonçalves",
+        "photo": "http://books.google.com/books/content?id=ll1lAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "Romance Histórico",
+        "year": 2006,
+        "description": "Um épico que narra a vida de Kehinde, uma mulher escravizada que luta pela liberdade enquanto busca seu filho desaparecido."
+      },
+      {
+        "title": "Amoras",
+        "author": "Emicida",
+        "photo": "http://books.google.com/books/content?id=DWeNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Literatura Infantil",
+        "year": 2018,
+        "description": "Um livro infantil que celebra a negritude e a autoestima das crianças negras por meio de uma narrativa poética."
+      },
+      {
+        "title": "O Avesso da Pele",
+        "author": "Jeferson Tenório",
+        "photo": "http://books.google.com/books/content?id=cC_tDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Ficção",
+        "year": 2020,
+        "description": "Um romance que aborda questões de racismo estrutural e violência através da história de um jovem negro e seu pai."
+      },
+      {
+        "title": "Histórias de Leves Enganos e Parecenças",
+        "author": "Conceição Evaristo",
+        "photo": "https://m.media-amazon.com/images/I/51zfLmyDFpL.SY445_SX342.jpg",
+        "genre": "Contos",
+        "year": 2016,
+        "description": "Uma coletânea de contos que explora memórias, ancestralidade e as múltiplas vivências de personagens negros."
+      },
+      {
+        "title": "Cadernos Negros - Poemas",
+        "author": "Coletivo Quilombhoje",
+        "photo": "https://m.media-amazon.com/images/I/41E+wQUhfLL.SY466.jpg",
+        "genre": "Poesia",
+        "year": 1978,
+        "description": "Uma antologia de poemas que celebra a cultura negra e denuncia o racismo e a desigualdade no Brasil."
+      }
+    ]
+  }
