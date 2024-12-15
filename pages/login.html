@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./assets/images/logo.png" alt="Logo">
+            <img src="../assets/images/logo.png" alt="Logo">
         </div>
 
         <nav class="main-menu">
@@ -23,17 +23,30 @@
         </nav>
     </header>
     <main>
-        <h1>Login</h1>
-        <form action="#" method="post">
+        <h1 id="login">Login</h1>
+        <!-- <form action="#" method="post"> se a fgente tivesse um dominio-->
+        <form>
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-            <label for="password">Senha</label>
+            <label id="label2" for="password">Senha</label>
             <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
 
-            <button type="submit">Entrar</button>
+            <button type="submit" id="submit">Entrar</button>
         </form>
-        <a href="#">Esqueceu sua senha?</a>
+        <a id="a" href="#">Esqueceu sua senha?</a>
+
+        <section id="loginFeito">
+            <h1 id="emailCad"></h1>
+
+            <p>Bem vindo(a) ao seu perfil hackathon!</p>
+
+            <p>Está ansioso para este momento? Ande pelo nosso site um pouco, há bastante informação interessantíssimas para você, um abraço e boa sorte!</p>
+
+            <button id="logout">Logout</button>
+        </section>       
     </main>
+
+    <script src="../js/login.js"></script>
 </body>
 </html>
