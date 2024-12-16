@@ -21,35 +21,36 @@ const submit = document.getElementById("submit");
 
 let curretIndex = reports.length;
 
-function renderReports(){
-    dad.innerHTML = " ";
-    reports.forEach((reports, index) => {
-        
-        const article = document.createElement("article");
-        dad.appendChild(article);
-        
-        const titleCard = document.createElement("h2");
-        titleCard.textContent = `Relato ${index + 1}`
-        article.appendChild(titleCard);
-        
-        
-        const paragraph = document.createElement("p");
-        paragraph.textContent = reports;
-        article.appendChild(paragraph);
 
-    });
-}    
+    const article = document.createElement("article");
+    dad.appendChild(article);
+    
+    const titleCard = document.createElement("h2");
+    titleCard.textContent = `Relato${i + 1}`
+    article.appendChild(titleCard);
+    
+    
+    const paragraph = document.createElement("p");
+    paragraph.textContent = reports[i];
+    article.appendChild(paragraph);
 
-renderReports();
-
-submit.addEventListener("click", ()=>{
-    const newReport = userReport.value.trim();
-    if (newReport){
-
-    reports.push(newReport); 
-    userReport.value = " ";
-        renderReports();
-}  
 });
 
+let i = 0;
 
+    while(i< reports.length){
+       
+    const article = document.createElement("article");
+    dad.appendChild(article);
+    
+    const titleCard = document.createElement("h2");
+    titleCard.textContent = `Relato${i + 1}`
+    article.appendChild(titleCard);
+    
+    
+    const paragraph = document.createElement("p");
+    paragraph.textContent = reports[i];
+    article.appendChild(paragraph);
+    
+    i++;
+    }
