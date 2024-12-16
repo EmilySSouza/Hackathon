@@ -33,7 +33,7 @@ submit.addEventListener("click", ()=>{
     dad.appendChild(article);
     
     const titleCard = document.createElement("h2");
-    titleCard.textContent = `Relato${i + 1}`
+    titleCard.textContent = `Relato ${i + 1}`
     article.appendChild(titleCard);
     
     
