@@ -62,7 +62,15 @@ function able(...x){
     }
 }
 
-button.addEventListener("click",()=>{exibeUser(user)})
+// button.addEventListener("click",()=>{exibeUser(user)})
+button.addEventListener("click", () => {
+    if (user.value.trim() !== "" && senha.value.trim() !== "") {
+        exibeUser(user);
+    } else {
+        alert("Por favor, preencha todos os campos corretamente.");
+    }
+});
+
 logout.addEventListener("click",()=>{
     localStorage.clear();
     feito.style.display = "none";
