@@ -1,0 +1,20 @@
+@import url(../base/variables.css);
+
+form button {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1.1em;
+    color: var(--global-color-primary);
+    background-color: var(--global-color-accent);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: var(--global-color-secondary);
+    transform: scale(1.02);
+}

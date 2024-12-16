@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root, button, label {
+:root, button, input {
     font-family: "Space Grotesk", sans-serif;
 }
 
@@ -58,4 +58,41 @@ h3 {
 p {
     font-size: 1em;
     text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: var(--global-color-secondary);
+    font-size: 1em;
+    padding: 0.5em 0em 0.5em 0.3em;
+    width: 20em;
+    margin-bottom: 0.6em;
+}
+
+input::placeholder {
+    color: var(--global-color-text);
+}
+
+button {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1.1em;
+    color: var(--global-color-primary);
+    background-color: var(--global-color-accent);
+    border: none;
+    border: 0.1em solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--global-color-secondary);
+    transform: scale(1.02);
 }

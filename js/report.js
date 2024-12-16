@@ -26,7 +26,7 @@ const submit = document.getElementById("submit");
 
 submit.addEventListener("click", ()=>{
     reports.push(userReport.value); 
-    userReport.value = " ";
+    userReport.value = "";
 
 
     const article = document.createElement("article");
@@ -59,5 +59,5 @@ let i = 0;
     paragraph.textContent = reports[i];
     article.appendChild(paragraph);
     
-    i++
+    i++;
     }
