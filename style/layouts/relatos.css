@@ -1,5 +1,8 @@
 @import url(../base/variables.css);
 
+body {
+    overflow-y: auto;
+}
 .container {
     display: grid;
     width: 100%;
@@ -71,4 +74,20 @@ p{
 
 .report textarea::placeholder {
     font-size: 1.6em;
+}
+
+@media (max-width: 900px) {
+    #dad {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    #dad {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
