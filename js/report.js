@@ -15,49 +15,41 @@ let reports = [
      "Disseram que eu tinha que ter tomado leite de magnésia pra minha filha nascer branca. A pessoa tava com ela no colo e ela tinha nascido horas antes."
     ];
 
-const report1 = document.getElementById("report1");
-const report2 = document.getElementById("report2");
 const dad = document.getElementById("dad");
-
-// report1.textContent =  reports[0];
-// report2.textContent  = reports[1];
 const userReport = document.getElementById("reportUser");
 const submit = document.getElementById("submit");
 
+let curretIndex = reports.length;
+
+function renderReports(){
+    dad.innerHTML = " ";
+    reports.forEach((reports, index) => {
+        
+        const article = document.createElement("article");
+        dad.appendChild(article);
+        
+        const titleCard = document.createElement("h2");
+        titleCard.textContent = `Relato ${index + 1}`
+        article.appendChild(titleCard);
+        
+        
+        const paragraph = document.createElement("p");
+        paragraph.textContent = reports;
+        article.appendChild(paragraph);
+
+    });
+}    
+
+renderReports();
+
 submit.addEventListener("click", ()=>{
-    reports.push(userReport.value); 
-    userReport.value = "";
+    const newReport = userReport.value.trim();
+    if (newReport){
 
-
-    const article = document.createElement("article");
-    dad.appendChild(article);
-    
-    const titleCard = document.createElement("h2");
-    titleCard.textContent = `Relato${i + 1}`
-    article.appendChild(titleCard);
-    
-    
-    const paragraph = document.createElement("p");
-    paragraph.textContent = reports[i];
-    article.appendChild(paragraph);
-
+    reports.push(newReport); 
+    userReport.value = " ";
+        renderReports();
+}  
 });
 
-let i = 0;
 
-    while(i< reports.length){
-       
-    const article = document.createElement("article");
-    dad.appendChild(article);
-    
-    const titleCard = document.createElement("h2");
-    titleCard.textContent = `Relato${i + 1}`
-    article.appendChild(titleCard);
-    
-    
-    const paragraph = document.createElement("p");
-    paragraph.textContent = reports[i];
-    article.appendChild(paragraph);
-    
-    i++;
-    }
